@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Homework3</string>
+    <string name="enter_the_reference_of_image">Enter the reference of image</string>
+    <string name="the_image_from_internet">the image from internet</string>
+</resources>
