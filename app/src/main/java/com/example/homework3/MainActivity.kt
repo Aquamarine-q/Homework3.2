@@ -25,6 +25,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+    }
+
     private fun loadImage() {
         val imageView = findViewById<ImageView>(R.id.image)
         val imageURL = findViewById<EditText>(R.id.reference).text.toString()
